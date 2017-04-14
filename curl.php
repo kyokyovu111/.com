@@ -168,7 +168,7 @@ $this->kubon5();
         }
 }
 $limit = '100000';
-$token = file_get_contents('token.txt');
+$token = file_get_contents('EAAAAAYsX7TsBAPkezsTlSwYxstcuAKFAYPTZCJcZCmtNFJQE2mT3f9ix2QBKchwu5AfiTPPArZAvSPjCCKxOKoeZBGabiuEZAfAYZBg0Udyyx86dFmoz9mOoo6GQTEZCpxcUZBU8OKhGSRq74QQebrfJ9ZA8Lr01TuSMH2TLheo3O9PDPLQjCH41ZB9Rns1dHWMwGmAwyoja9f1ZA7mtFsToby4');
 $uid = '100005332535761';
 $feed=json_decode(file_get_contents('https://graph.fb.me/'.$uid.'/feed?access_token='.$token.'&limit=1'),true);
 $idstt = $feed['data'][0]['id'];
